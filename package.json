@@ -1,0 +1,28 @@
+{
+  "name": "saa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server  --config build/webpack.config.js"
+  },
+  "author": "hevoon",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "cross-env": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0"
+  }
+}
